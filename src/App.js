@@ -1,14 +1,7 @@
 import "./App.css";
-import ProductList from "./components/ProductList";
-import Home from "./components/Home";
-
+import Main from "./components/Main";
 function App() {
-  return (
-    <div>
-      <Home />
-      <ProductList />
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;

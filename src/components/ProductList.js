@@ -1,16 +1,13 @@
 import products from "../products";
+import ProductsItem from "./ProductsItem";
+
 const ProductList = () => {
-  return (
-    <>
-      {products.map((product) => (
-        <div className="center">
-          <h2>{product.names}</h2>
-          <h2>{product.price}</h2>
-          <img src={product.Image} />
-        </div>
-      ))}
-    </>
-  );
+  const myArray = products.map((product) => <ProductsItem product={product} />);
+  return <div className="center">{myArray}</div>;
 };
 
 export default ProductList;
+
+{
+  /* <ProductsItem product={product} /> */
+}
