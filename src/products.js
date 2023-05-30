@@ -8,9 +8,9 @@ const products = [
     Image: cheescake,
   },
   {
-    names: "cheescake",
-    price: 12,
-    Image: cheescake,
+    names: "cake",
+    price: 10,
+    Image: cheescakeB,
   },
 ];
 
